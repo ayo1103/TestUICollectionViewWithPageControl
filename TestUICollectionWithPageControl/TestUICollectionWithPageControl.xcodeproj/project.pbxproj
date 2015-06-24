@@ -13,6 +13,7 @@
 		3B6FE9B11B3AA676002F45F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6FE9B01B3AA676002F45F9 /* Images.xcassets */; };
 		3B6FE9B41B3AA676002F45F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6FE9B21B3AA676002F45F9 /* LaunchScreen.xib */; };
 		3B6FE9C01B3AA676002F45F9 /* TestUICollectionWithPageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6FE9BF1B3AA676002F45F9 /* TestUICollectionWithPageControlTests.swift */; };
+		3B6FE9CA1B3AA76E002F45F9 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6FE9C91B3AA76E002F45F9 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3B6FE9B91B3AA676002F45F9 /* TestUICollectionWithPageControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUICollectionWithPageControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6FE9BE1B3AA676002F45F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B6FE9BF1B3AA676002F45F9 /* TestUICollectionWithPageControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUICollectionWithPageControlTests.swift; sourceTree = "<group>"; };
+		3B6FE9C91B3AA76E002F45F9 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		3B6FE9A61B3AA676002F45F9 /* TestUICollectionWithPageControl */ = {
 			isa = PBXGroup;
 			children = (
+				3B6FE9C91B3AA76E002F45F9 /* MyCollectionViewCell.swift */,
 				3B6FE9A91B3AA676002F45F9 /* AppDelegate.swift */,
 				3B6FE9AB1B3AA676002F45F9 /* ViewController.swift */,
 				3B6FE9AD1B3AA676002F45F9 /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			files = (
 				3B6FE9AC1B3AA676002F45F9 /* ViewController.swift in Sources */,
 				3B6FE9AA1B3AA676002F45F9 /* AppDelegate.swift in Sources */,
+				3B6FE9CA1B3AA76E002F45F9 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
